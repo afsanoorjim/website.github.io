@@ -57,4 +57,42 @@ section#middle{
     width: 40%;
     padding: 2vh;
     text-align: left;
+    border-right: 2px solid black;
+}
+section#middle .top{
+    border-bottom: 2px solid black;
+}
+
+section#right{
+    width:40%;
+    padding: 2vh;
+}
+section#right ul{
+    padding-left: 2vw;
+}
+section#testimon{
+    padding: 2vh;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.boxes .box{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-height: 150px;
+    padding: 2vh;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+footer{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
